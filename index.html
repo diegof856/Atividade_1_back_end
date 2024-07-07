@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diego Felipe"> 
+    <meta name="description" content="Reposta para atividade_1">
+    <title>Atividade_1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/resposta.js"></script>
+</head>
+<body>
+    <main>
+         <form class="formulario">
+        <label for="valor_base">Digite o valor base ai meu patrão (a):</label>
+        <input type="text" autocomplete="off" id="valor_base">
+    
+        <label for="porcentagem">Digite a porcentagem ai meu patrão (a):</label>
+        <input type="text" autocomplete="off" id="porcentagem">
+            <div class="div_botao">
+                <input type="button" value="Calcular" onclick="calcularPorcentagem()">
+                <input type="text" autocomplete="off" id="resultado"> 
+             </div>
+        
+    
+      </form>  
+      <div class="restoDaAtiviade">
+        <p id = "resultadoSegundaQuestao" class="edicao"></p>
+        <p id = "resultadoSequencia" class="edicao"></p>
+        
+    </div>
+    <div class="restoDaAtiviade_4questao" style="display: none;">
+        <label for="quartaQuetao">Digite o numero para saber se ele é primo</label>
+        <input type="text" class="inputResto" id="quartaQuetao" autocomplete="off">
+        <input type="button" value="Ver se é primo" onclick="numeroPrimo()">
+        <p class="resultadoPrimo"></p>
+    </div>
+    </main>
+ 
+</body>
+</html>

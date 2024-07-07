@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(to right, #ca7575, #5b5b85);
+}
+
+.formulario{
+    background: rebeccapurple;
+    width: 50%;
+    
+    margin: 0 auto;
+    margin-top: 8em;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    border-radius: 1.5em;
+}
+.formulario label{
+    width: 100%;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+.formulario input[type="text"]{
+    padding: 0.5em;
+    border-radius: 1em;
+    height: 2em;
+}
+.formulario input[type = "button"]{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    padding: 0.5em;
+    background: rgb(0, 255, 64);
+    color: rgb(31, 23, 13);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1em;
+    width: fit-content;
+
+}
+.div_botao{
+    display: flex;
+     justify-content:flex-start;
+     gap: 1em;
+
+}
+.div_botao #resultado{
+    margin-top: 1em;
+}
+.restoDaAtividade{
+    margin-left: 100 em;
+}
+.restoDaAtiviade_4questao{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 25em;
+    padding: 1em;
+    border-radius: 1.5em;
+    background-color: burlywood;
+}
+.restoDaAtiviade_4questao label{
+    width: 100%;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+.restoDaAtiviade_4questao input[type = "button"]{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    padding: 0.5em;
+    background: red;
+    color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1em;
+    width: fit-content;
+}
+.restoDaAtiviade_4questao input[type="text"]{
+    padding: 0.5em;
+    border-radius: 1em;
+    height: 2em;
+}
+.inputResto{
+    margin-bottom: 1em;
+}
+.edicao{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 25em;
+}
+.resultadoPrimo {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
